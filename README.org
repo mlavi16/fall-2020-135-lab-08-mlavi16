@@ -30,7 +30,7 @@ writeImage. They have been modified to accept a std::string as the
 first parameter representing the name of the file to read or write.
 
 There is also an example file: ~sample.cpp~ and a ~Makefile~ that
-builds it to shhow hwo to use ~imageio.cpp~.
+builds it to show how to use ~imageio.cpp~.
 
 For this lab, instead of writing separate programs, write one program
 that you should compile using *make*. You should modify the provided
