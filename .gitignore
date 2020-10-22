@@ -1,4 +1,5 @@
 *.o
+task*
 main
 sample
 .vscode
