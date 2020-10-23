@@ -1,7 +1,7 @@
-OBJECTS = editImages.o imageio.o
+OBJECTS = main.o editImages.o imageio.o
 
-main: main.o ${OBJECTS}
-	g++ -o main main.o ${OBJECTS}
+main: ${OBJECTS}
+	g++ -o main ${OBJECTS}
 
 main.o: main.cpp editImages.h imageio.h
 
