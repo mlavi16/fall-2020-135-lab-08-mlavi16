@@ -45,7 +45,7 @@ void box(std::string input) {
     int out[MAX_H][MAX_W];
     for(int row = 0; row < h; row++) {
         for(int col = 0; col < w; col++) {
-            if ((row > (h / 4)) && (row <= ((h / 4) * 3))) { //TO DO figure out exact start and end (<= or <, > or >=)
+            if ((row > (h / 4)) && (row <= ((h / 4) * 3))) {
                 if ((col > (w / 4)) && (col <= ((w / 4) * 3))) {
                     out[row][col] = 255;
                 } else {
