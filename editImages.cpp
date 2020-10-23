@@ -169,11 +169,11 @@ void kernal(std::string input) {
     //assigns black color to the boundary pixels
     for (int col = 0; col < width; col++) {
         out[0][col] = 0;
-        out[width - 1][col] = 0;
+        out[height - 1][col] = 0;
     }
     for (int row = 0; row < height; row++) {
         out[row][0] = 0;
-        out[row][height - 1] = 0;
+        out[row][width - 1] = 0;
     }
 
     writeImage("taskG.pgm", out, height, width);
