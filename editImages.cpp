@@ -144,7 +144,7 @@ void kernal(std::string input) {
     readImage(input, img, height, width);
 
     int out[MAX_H][MAX_W];
-    int kernal, a, b, c, f, g, h, i;
+    int kernal, a, b, c, g, h, i;
 
     for(int row = 1; row < (height - 1); row++) {
         for(int col = 1; col < (width - 1); col++) {
