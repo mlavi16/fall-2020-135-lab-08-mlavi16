@@ -46,7 +46,7 @@ Important specifics:
    files.
 2. Your program must consist of *at least* two ~.cpp~ files if not
    more, not counting ~imageio.cpp~. 
-3. You *should not* change anything in ~iamgeio.cpp~.
+3. You *should not* change anything in ~imageio.cpp~.
 4. This lab should *not* use ~doctest.h~, it should just run with no
    user input and generate the output images.
 
